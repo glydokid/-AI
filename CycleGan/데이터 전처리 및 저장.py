@@ -27,8 +27,8 @@ def load_images(path, size=(256,256)):
 path = 'C:/Data/ai.hub/53_sample/'
 # load dataset A
 dataA1 = load_images(path + 'image/')
-dataAB = load_images(path + 'image_test/')
-dataA = vstack((dataA1, dataAB))
+dataA2 = load_images(path + 'image_test/')
+dataA = vstack((dataA1, dataA2))
 print('Loaded dataA: ', dataA.shape)
 # load dataset B
 dataB1 = load_images(path + 'night/')
