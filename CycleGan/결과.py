@@ -19,6 +19,7 @@ def load_image(filename, size=(256,256)):
 	pixels = (pixels - 127.5) / 127.5
 	return pixels
 
+
 # load the image
 image_src = load_image('horse2zebra/trainA/n02381460_541.jpg')
 # load the model
